@@ -1,4 +1,8 @@
 {
   "name": "feishu-blog-publisher",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-static.js",
+    "start": "node server.js"
+  }
 }
